@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src/ru/bmstu/rk9/rao/lib'
+        }
+    }
+}
+
+jar {
+    manifest {
+    	from 'META-INF/MANIFEST.MF'
+    }
+}
